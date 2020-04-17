@@ -9,12 +9,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link active" href="#"><router-link to="/">Home</router-link><span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link"><router-link to="/gallery">Gallery</router-link></a>
+            <a class="nav-item nav-link active" href="#"><router-link to="/gallery">Gallery</router-link><span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-item nav-link"><router-link to="/gallery">Gallery</router-link></a> -->
             <a class="nav-item nav-link"><router-link to="/FAQ">FAQ</router-link></a>
           </div>
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link"><router-link to="/account">My Account</router-link></a>
+            <a class="nav-item nav-link"><router-link to="/admin">Admin Page</router-link></a>
             <a class="nav-item nav-link"><router-link to="/cart">Shopping Cart</router-link></a>
           </div>
         </div>
