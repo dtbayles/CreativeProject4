@@ -80,7 +80,7 @@ export default {
       var index = this.$root.$data.cart.map(x => {
         return x._id;
       }).indexOf(photo._id);
-      console.log(index);
+      //console.log(index);
       if (index !== -1) {
         this.$root.$data.cart.splice(index, 1);
       }

@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+//import Home from "../views/Home.vue";
 import Gallery from "../views/Gallery.vue";
 import FAQ from "../views/FAQ.vue";
 import Admin from "../views/Admin.vue";
@@ -11,8 +11,8 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "Gallery",
+    component: Gallery
   },
   {
     path: "/gallery",
